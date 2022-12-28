@@ -4,7 +4,7 @@
 <dict>
 	<key>tsInputMethodCharacterRepertoireKey</key>
 	<array>
-		<string>Hans</string>
+		<string>Thai</string>
 	</array>
 	<key>InputMethodServerControllerClass</key>
 	<string>$(PRODUCT_MODULE_NAME).GoogleInputToolsController</string>

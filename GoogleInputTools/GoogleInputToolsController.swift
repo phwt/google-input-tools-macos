@@ -34,7 +34,7 @@ class GoogleInputToolsController: IMKInputController {
 
         NSLog("\(#function)(\(client))")
 
-        client.overrideKeyboard(withKeyboardNamed: "com.apple.keylayout.US")
+        client.overrideKeyboard(withKeyboardNamed: "io.github.colemakmods.keyboardlayout.colemakdh.colemakdhmatrix")
     }
 
     override func deactivateServer(_ sender: Any) {

@@ -8,6 +8,7 @@
 import Foundation
 
 enum InputTool: String {
+    case Thai = "th-t-i0-und"
     case Pinyin = "zh-t-i0-pinyin"
     case Shuangpin_ABC = "zh-t-i0-pinyin-x0-shuangpin-abc"
     case Shuangpin_Microsoft = "zh-t-i0-pinyin-x0-shuangpin-ms"
@@ -22,7 +23,7 @@ class CloudInputEngine {
 
     static let shared = CloudInputEngine()
 
-    let _inputTool = InputTool.Pinyin
+    let _inputTool = InputTool.Thai
     let _candidateNum = 11
 
     func requestCandidates(
